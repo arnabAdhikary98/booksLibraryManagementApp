@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGODB_URI)
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors({
-  origin: 'https://your-vercel-app-url.vercel.app',
+  origin: 'https://books-library-management-app.vercel.app/',
   credentials: true,
 }));
 
