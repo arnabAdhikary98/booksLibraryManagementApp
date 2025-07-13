@@ -1,0 +1,102 @@
+{
+  "users": [],
+  "books": [],
+  "myBooks": [
+    {
+      "userId": "6873a554a1ad15b4d4d71b6b",
+      "bookId": "6873a76ba4600dfb89108194",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "6873a554a1ad15b4d4d71b6b",
+      "bookId": "6873a76ba4600dfb89108196",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "6873a554a1ad15b4d4d71b6b",
+      "bookId": "6873a76ba4600dfb89108199",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "6873aca0d54b2084c70d8840",
+      "bookId": "6873aaa939ffab052f635852",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "6873aca0d54b2084c70d8840",
+      "bookId": "6873aaa939ffab052f635853",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "6873aca0d54b2084c70d8840",
+      "bookId": "6873aaa939ffab052f635854",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "68738d4439a084dc0bbd0033",
+      "bookId": "6873aaa939ffab052f635853",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "68738d4439a084dc0bbd0033",
+      "bookId": "6873aaa939ffab052f635857",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "68738d4439a084dc0bbd0033",
+      "bookId": "6873aaa939ffab052f635858",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "68738d4439a084dc0bbd0033",
+      "bookId": "6873aaa939ffab052f635856",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "68738d4439a084dc0bbd0033",
+      "bookId": "6873afa5d572db7f5cd62582",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "68738d4439a084dc0bbd0033",
+      "bookId": "6873afa5d572db7f5cd62583",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "68738d4439a084dc0bbd0033",
+      "bookId": "6873afa5d572db7f5cd62580",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "6873a554a1ad15b4d4d71b6b",
+      "bookId": "6873afa5d572db7f5cd62580",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "6873c790059841d6a8da9c70",
+      "bookId": "6873c704c415dcd785f8739f",
+      "status": "Want to Read",
+      "rating": 0
+    },
+    {
+      "userId": "6873c790059841d6a8da9c70",
+      "bookId": "6873c704c415dcd785f873a1",
+      "status": "Want to Read",
+      "rating": 0
+    }
+  ]
+}

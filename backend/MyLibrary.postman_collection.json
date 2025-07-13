@@ -1,0 +1,97 @@
+{
+  "info": {
+    "_postman_id": "abcd1234-abcd-1234-abcd-1234abcd5678",
+    "name": "My Library MERN App",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\"\n}"
+        },
+        "url": { "raw": "http://localhost:5000/api/auth/register", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api", "auth", "register"] }
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\"\n}"
+        },
+        "url": { "raw": "http://localhost:5000/api/auth/login", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api", "auth", "login"] }
+      }
+    },
+    {
+      "name": "Get Current User (Me)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "http://localhost:5000/api/auth/me", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api", "auth", "me"] }
+      }
+    },
+    {
+      "name": "Logout",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "http://localhost:5000/api/auth/logout", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api", "auth", "logout"] }
+      }
+    },
+    {
+      "name": "Get All Books",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "http://localhost:5000/api/books", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api", "books"] }
+      }
+    },
+    {
+      "name": "Get My Books",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "http://localhost:5000/api/mybooks", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api", "mybooks"] }
+      }
+    },
+    {
+      "name": "Add Book to MyBooks",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": { "raw": "http://localhost:5000/api/mybooks/<bookId>", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api", "mybooks", "<bookId>"] }
+      }
+    },
+    {
+      "name": "Update Book Status",
+      "request": {
+        "method": "PATCH",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"status\": \"Read\"\n}"
+        },
+        "url": { "raw": "http://localhost:5000/api/mybooks/<bookId>/status", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api", "mybooks", "<bookId>", "status"] }
+      }
+    },
+    {
+      "name": "Update Book Rating",
+      "request": {
+        "method": "PATCH",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"rating\": 4\n}"
+        },
+        "url": { "raw": "http://localhost:5000/api/mybooks/<bookId>/rating", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api", "mybooks", "<bookId>", "rating"] }
+      }
+    }
+  ]
+}

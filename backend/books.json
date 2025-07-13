@@ -1,0 +1,50 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "coverImage": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "availability": true
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "coverImage": "https://images.unsplash.com/photo-1544936421-1aa6a3d7c53e",
+    "availability": true
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "coverImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c",
+    "availability": true
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "coverImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "availability": true
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "coverImage": "https://placehold.co/300x300/FF5733/FFFFFF?text=The+Pragmatic+Programmer",
+    "availability": true
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "coverImage": "https://placehold.co/300x300/3498DB/FFFFFF?text=Clean+Code",
+    "availability": true
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "coverImage": "https://placehold.co/300x300/FF5733/FFFFFF?text=The+Pragmatic+Programmer",
+    "availability": true
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "coverImage": "https://placehold.co/300x300/3498DB/FFFFFF?text=Clean+Code",
+    "availability": true
+  }  
+]
