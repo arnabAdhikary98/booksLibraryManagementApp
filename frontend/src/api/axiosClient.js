@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: '/api', // Use relative path since frontend and backend are on same origin
+  baseURL: import.meta.env.VITE_API_URL,
   withCredentials: true,
 });
 

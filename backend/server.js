@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const errorHandler = require('./middleware/errorHandler');
+const cors = require('cors');
 
 const app = express();
 
@@ -13,6 +14,10 @@ mongoose.connect(process.env.MONGODB_URI)
 
 app.use(cookieParser());
 app.use(express.json());
+app.use(cors({
+  origin: 'https://your-vercel-app-url.vercel.app',
+  credentials: true,
+}));
 
 // Serve React static files
 // const frontendBuildPath = path.join(__dirname, '../frontend/dist');
