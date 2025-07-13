@@ -15,8 +15,8 @@ app.use(cookieParser());
 app.use(express.json());
 
 // Serve React static files
-const frontendBuildPath = path.join(__dirname, '../frontend/dist');
-app.use(express.static(frontendBuildPath));
+// const frontendBuildPath = path.join(__dirname, '../frontend/dist');
+// app.use(express.static(frontendBuildPath));
 
 // API routes
 app.use('/api/auth', require('./routes/auth'));
@@ -26,9 +26,9 @@ app.use('/api/mybooks', require('./routes/mybooks'));
 app.use(errorHandler);
 
 // For any non-API route, serve React index.html
-app.get(/^\/(?!api).*/, (req, res) => {
-  res.sendFile(path.join(frontendBuildPath, 'index.html'));
-});
+// app.get(/^\/(?!api).*/, (req, res) => {
+//   res.sendFile(path.join(frontendBuildPath, 'index.html'));
+// });
 
 app.listen(process.env.PORT, () => {
   console.log(`Server running on port ${process.env.PORT}`);
